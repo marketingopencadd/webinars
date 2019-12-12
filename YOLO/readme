@@ -1,0 +1,7 @@
+Esta pasta contém o código (sem dados) da demo de detector YOLO feita no webinar "You Only Look Once: Método YOLO de Detecção de Objetos em Tempo Real com Deep Learning" (Jul/2019)
+
+Arquivos:
+- trainYoloDemo: código MATLAB para treinar detector YOLO;
+- yolov2_detectFcn: MATLAB function que aplica detector treinado, escrita de forma compatível com geração de código C para GPU
+- yoloCodegen: código MATLAB que faz a geração de código C da função yolov2_detectFcn
+- tempData.mat: MATLAB table com os a referência aos arquivos necessáiros para treino do modelo pelo código trainYoloDemo
